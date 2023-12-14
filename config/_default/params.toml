@@ -1,0 +1,159 @@
+#################### default parameters ################################con
+# favicon
+favicon = "images/favicon.png"
+# logo
+logo = "images/cylens/CYLENS-Logo_Horizontal_LightBG.png"
+# use `px` or `x` with logo_width, example: "100px".
+# Note: logo_width is not work with .svg file
+logo_width = "250px"
+# if logo_webp set false, will not generate WEBP version of logo | default is true
+logo_webp = true
+# logo text will only show when logo is missing.
+logo_text = "CyLens"
+# purgeCSS
+purge_css = true
+# footer content
+footer_content = "CyLens is a policy management platform that helps you to create, manage, distribute and enforce your policies."
+
+# Main Sections
+mainSections = ["blog"]
+# image gallery shortcode
+image_gallery = false
+# contact form action
+contact_form_action = "https://formspree.io/f/xoqogqow" # contact form works with [https://airform.io/] or [https://formspree.io]
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "" # example: G-XXXXXXXXXX
+google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
+
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
+custom_script = ""
+
+# copyright
+theme_copyright = false
+copyright = "Copyright [AVOLENS GmbH](https://avolens.com) 2024" # also change copyright in language.toml file
+
+# Footer Demo
+[demo]
+form_action = "https://formspree.io/f/xoqogqow"
+button_label = "Request Demo"
+
+# Preloader
+[preloader]
+enable = false
+preloader = "images/cylens/CYLENS-Logo_Vertical_LightBG.png" # use jpg, png, svg or gif format.
+greetings = "Welcome to"
+greetings_to = "Cylens"
+
+# Navigation button
+[navigation_button_bordered]
+enable = true
+label = "Log In (Coming Soon)"
+link = "#"
+
+# Navigation button
+[navigation_button_linked]
+enable = false
+label = "Log In (Coming Soon)"
+link = ""
+
+# Subscription
+[subscription]
+enable = false
+# mailchimp subsciption
+mailchimp_form_action = "" # replace this url with yours
+mailchimp_form_name =  "" # replace this code with yours
+
+# Crisp Chat
+[crisp_chat]
+enable = false
+crisp_website_id = "" # replace this code with yours
+# Check this video tutorial to get your crisp website ID - https://www.youtube.com/watch?v=nW5UX6iVdFc
+
+# Valine Comment
+[valine_comment]
+enable = false
+appId = ""     # replace this code with yours [ex: QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI]
+appKey = ""    # replace this code with yours [ex: WBmoGyJtbqUswvfLh6L8iEBr]
+# language = "change language translation from `i18n`"
+avatar = ""      # see : https://valine.js.org/en/avatar.html
+pageSize = 10    # will show 10 comments per page
+visitor = true
+highlight = true # Code highlighting
+recordIP = true  # Record reviewer IP.
+enableQQ = false # https://valine.js.org/en/configuration.html#enableQQ
+# serverURLs = "" # https://leancloud.your_website.com
+# Check Valine's official documentation here - https://valine.js.org/en/configuration.html
+
+# seo meta data for OpenGraph / Twitter Card
+[metadata]
+keywords = ["CyLens", "AVOLENS", "Policy", "Security"]
+description = "CyLens is a policy management platform that helps you to create, manage and distribute your policies."
+author = "AVOLENS GmbH"
+image = "images/logo.png"                                       # this image will be used as fallback if a page has no image of its own
+
+# matomo tracking: see https://matomo.org/
+[matomo]
+enable = false
+url = ""       # your matomo url
+id = ""        # your matomo id
+
+# baidu analytics: see https://tongji.baidu.com/
+[baidu]
+enable = false
+analytics_id = "" # Your ID
+
+# plausible analytics: see https://plausible.io/
+[plausible]
+enable = false
+domain = ""    # yourdomain.com
+
+# counter analytics: see https://counter.dev/setup.html
+[counter]
+enable = false
+username = ""  # your username
+
+# Footer call to action
+[footer_call_to_action]
+enable = true
+title = "Reduce your incidents and start **Enforcing your policies with CyLens**"
+[footer_cta_button]
+enable = true
+label = "Get Started With CyLens"
+link = "contact"
+
+# site verifications
+[site_verification]
+google = ""   # Your verification code
+bing = ""     # Your verification code
+baidu = ""    # Your verification code
+facebook = "" # Your verification code
+mastodon = "" # Your verification code
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+[[social]]
+title = "Website"
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://avolens.com"
+
+[[social]]
+title = "github"
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://github.com/avolens"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://twitter.com/AVOLENS_ITSec"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.linkedin.com/company/avolens-gmbh"
+

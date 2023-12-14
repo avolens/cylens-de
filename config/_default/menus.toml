@@ -1,0 +1,42 @@
+############# French navigation ##############
+# main menu
+[[main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[main]]
+name = "Documentation"
+url = "https://docs.cylens.de"
+weight = 2
+
+[[main]]
+name = "Roadmap"
+url = "https://starter.productboard.com/cylens-starter/1-cylens"
+weight = 3
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 4
+
+# Footer menu
+[[footer]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[footer]]
+name = "Documentation"
+url = "https://docs.cylens.de"
+weight = 2
+
+[[footer]]
+name = "Imprint"
+url = "https://avolens.com/imprint"
+weight = 3
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 4
