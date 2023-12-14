@@ -30,7 +30,7 @@ custom_script = ""
 
 # copyright
 theme_copyright = false
-copyright = "Copyright [AVOLENS GmbH](https://avolens.com) 2024" # also change copyright in language.toml file
+copyright = "Copyright [AVOLENS GmbH](https://avolens.com) 2023" # also change copyright in language.toml file
 
 # Footer Demo
 [demo]
