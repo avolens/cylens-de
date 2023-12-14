@@ -194,7 +194,7 @@ pricing:
     button_label : "Comming Soon"
     button_link : "#"
     services:
-    - "Track Reward Part Program"
+    - "CyLens Base Package"
     - "1 Environment"
     - "10 Agents"
     - "Write Custom Policies"
