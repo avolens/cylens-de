@@ -191,7 +191,7 @@ pricing:
     monthly_price : "89"
     yearly_price : "855"
     featured : false
-    button_label : "Comming Soon"
+    button_label : "Coming soon"
     button_link : "#"
     services:
     - "CyLens Base Package"
@@ -206,7 +206,7 @@ pricing:
     monthly_price : "289"
     yearly_price : "2775"
     featured : false
-    button_label : "Comming Soon"
+    button_label : "Coming soon"
     button_link : "#"
     services:
     - "Everything from Startup"
