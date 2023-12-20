@@ -28,3 +28,7 @@ We use HUGO according to the following specifications: https://gohugo.io/about/h
 ### Images
 
 Images are either from Pixabay or own productions.
+
+### Contact
+
+If you contact us via the contact form, your data will be processed by an external provider Formspree.io or Calendly and are subject to their privacy policy. Further information and objection options can be found in the privacy policy of Formspree.io: https://docs.formspree.io/files/privacy.pdf and Calendly: https://calendly.com/privacy. The legal basis for the use of the providers is Art. 6 para. 1 sentence 1 lit. f GDPR (legitimate interest). Personal data is transferred to the USA.

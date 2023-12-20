@@ -34,6 +34,7 @@
         <h2 class="h1 mb-20">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
 
+
         {{if .form.enable }}
         {{with .form }}
         <form action="{{.form_action}}" method="post" class="needs-validation mt-30 text-center" target="_blank" novalidate>
@@ -56,16 +57,22 @@
         {{ end }}
 
         {{ if .button.enable }}
+        {{ if .form.enable }}
+        <div class="divider-text mt-3 mb-2"><span class="bg-light-gray">OR</span></div>
+        {{ end }}
         {{ with .button }}
-        <div class="divider-text mt-25 mb-25"><span class="bg-light-gray">OR</span></div>
-        <a href="{{.link | absLangURL}}"
-          class="btn btn-outline-secondary d-flex align-items-center justify-content-center">
-          {{with .icon}}
-          {{ partial "image.html" (dict "Src" . "Alt" "icon" "Class" `me-2`) }}
-          {{end}} {{.label}}
-        </a>
-
-        <p class="content has-underdot-link text-muted mt-15">{{ .content | markdownify }}</p>
+        <div class="text-center">
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+          <a href="" class="btn btn-primary has-icon ms-15 mt-4" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/benjamin_koltermann/cylens-introduction-usage-and-demo'});return false;">{{.label}}
+                <span class="icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z"
+                      fill="currentColor" />
+                  </svg></span>
+          </a>
+        </div>
         {{ end }}
         {{ end }}
       </div>

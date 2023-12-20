@@ -9,13 +9,13 @@ banner:
     enable : false
     video_embed_link : "https://www.youtube.com/embed/dyZcRRWiuuw"
   form:
-    enable : true
-    form_action : "https://formspree.io/f/xoqogqow"
-    button_label : "Request Demo"
-  button:
     enable : false
+    form_action : "https://formspree.io/f/xoqogqow"
+    button_label : "Talk to us"
+  button:
+    enable : true
     icon : "images/brands/google.png"
-    label : "Sign Up With Google"
+    label : "Schedule a Demo Call"
     link : "#"
     content : "No credit card required. Available on [Mac](), [Windows](), [iOS](), & [Android]()"
 
